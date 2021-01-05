@@ -15,11 +15,11 @@ class TemperatureInput extends React.Component {
     }
 
     render() {
-        const { scale } = this.props
+        const { scale, value} = this.props
         return (
             <div className="form-group">
                 <label htmlFor="">Température en {scale}</label>
-                <input type="text" className="form-control" placeholder="Température..." onChange={this.handleChange} />
+                <input type="text" className="form-control" placeholder="Température..." onChange={this.handleChange} value={value} />
             </div>
         )
     }
