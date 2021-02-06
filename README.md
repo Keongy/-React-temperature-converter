@@ -3,11 +3,8 @@
 ![](./demo/screenshot.jpg)
 
 
-# Getting Started with Create React App
+# How to start the project : 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-How to start the project : 
 
 - Download the project
 - Use Npm install
