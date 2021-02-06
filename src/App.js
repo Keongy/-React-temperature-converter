@@ -41,8 +41,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="row justify-content-center m-0 mt-5">
-          <div className="col-3">
-            {/* {JSON.stringify(this.state)} */}
+          <div className="col-3 jumbotron pt-3 pb-4">
+            <h2 className="mb-5 text-center">Convertisseur</h2>
             <TemperatureInput value={celsius} temperature={this.handleTemperatureChangeCelsius} scale="Celsius" />
             <TemperatureInput value={fahrenheit} temperature={this.handleTemperatureChangeFahrenheit} scale="Fahrenheit" />
             <WaterBoilOrNot temperature={celsius} />
