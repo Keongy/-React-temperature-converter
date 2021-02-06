@@ -1,4 +1,4 @@
-
+### A temperature converter: celsius / fahrenheit
 
 ![](./demo/screenshot.jpg)
 
@@ -7,9 +7,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+How to start the project : 
 
-In the project directory, you can run:
+- Download the project
+- Use Npm install
+- Use Npm start or yarn start
 
 ### `npm start`
 
